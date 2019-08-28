@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgetudiant"
+            android:src="@drawable/etudiant"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="left"
+
+        android:layout_weight="1">
+
+        <TextView
+
+            android:gravity="bottom"
+            android:textScaleX="1.1"
+            android:textStyle="bold"
+            android:layout_width="100sp"
+            android:layout_height="0dp"
+            android:text="New Text"
+            android:id="@+id/tvnom"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textScaleX="1.1"
+            android:textStyle="bold"
+            android:layout_width="100sp"
+            android:layout_height="0dp"
+            android:text="New Text"
+            android:id="@+id/tvprenom"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="0dp"
+            android:text="New Text"
+            android:id="@+id/tvcb"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textScaleX="1.1"
+                android:textStyle="bold"
+                android:text="Absent"
+                android:textColor="#F00"
+                android:id="@+id/presence" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
